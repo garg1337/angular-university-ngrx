@@ -8,4 +8,4 @@ export const login = createAction(
 
 export const logout = createAction("[Top Menu] Logout");
 
-export const localStorageUserLoaded = createAction("[App] Local Storage User Loaded",props<{user?: User}>());
+export const localStorageUserLoaded = createAction("[Auth Effects] Local Storage User Loaded",props<{user?: User}>());

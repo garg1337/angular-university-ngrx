@@ -24,5 +24,4 @@ export function compareCourses(c1:Course, c2: Course) {
     return -1;
   }
   else return 0;
-
 }
